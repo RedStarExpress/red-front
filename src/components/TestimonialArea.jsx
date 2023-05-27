@@ -78,11 +78,11 @@ const Wrapper = styled.section`
         display: none;
     }
 
-    .owl-theme .owl-dots .owl-dot.active span, {
+    .owl-theme .owl-dots .owl-dot.active span {
         background-color: transparent;
     }
 
-    .owl-theme .owl-dots .owl-dot:hover span, {
+    .owl-theme .owl-dots .owl-dot:hover span {
         background-color: transparent;
     }
 `
