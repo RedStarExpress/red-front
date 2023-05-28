@@ -46,7 +46,7 @@ function TrackCode() {
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="bradcam_text text-center">
-                                <h3>Trek kod tekshirish</h3>
+                                <h3 style={{fontWeight: "700"}}>Trek kod tekshirish</h3>
 
                                 <span style={{ color: "#fff", fontSize: "24px", fontWeight: "500" }}>
                                     Siz ushbu sahifada RedStarExpress omboriga yuborgan buyurtmalaringizni omborda qabul qilingan yoki qabul qilinmaganligini kuzatishingiz mumkin.

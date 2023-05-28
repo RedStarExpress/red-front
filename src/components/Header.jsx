@@ -52,6 +52,7 @@ function Header() {
                                                 <ul id="navigation">
                                                     <li><Link to="/">Asosiy sahifa</Link></li>
                                                     <li><Link to="/track_code">Trek kod</Link></li>
+                                                    <li><Link to="/news">Yangiliklar</Link></li>
                                                     <li><Link to="/services">Biz haqimizda</Link></li>
                                                     <li><Link to="/contact_us">Bog'lanish</Link></li>
                                                 </ul>
