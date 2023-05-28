@@ -7,14 +7,13 @@ function ContactActionArea() {
             <div className="row align-items-center">
                 <div className="col-xl-7 col-md-6">
                     <div className="action_heading">
-                        <h3>100% secure and safe</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
+                        <h3>100% xavfsiz va ishonchli</h3>
+                        <p>Yukingizni buyurtma qilgan vaqtingizdan boshlab qo`lingizga olgunga qadar adminlar to`liq aloqada bo`ladi va bepul konsultatsiyalar berib boradi.</p>
                     </div>
                 </div>
                 <div className="col-xl-5 col-md-6">
                     <div className="call_add_action">
-                        <a href="tel:+998941234517" className="boxed-btn3">+998 94 123 45 17</a>
+                        <a href="tel:+998941234517" className="boxed-btn3">+998 90 665 15 25</a>
                     </div>
                 </div>
             </div>

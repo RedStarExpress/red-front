@@ -10,9 +10,8 @@ function TransportaionArea() {
                             <div className="icon">
                                 <img src="img/svg_icon/airplane.png" alt="" />
                             </div>
-                            <h3>Transportation</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                                placing drawing.</p>
+                            <h3>Yetkazish xizmatlari</h3>
+                            <p>Xitoy davlatida avia, avto va temir yo`l orqali tez, xavfsiz va arzon yetkazib berish uchun</p>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6">
@@ -20,9 +19,8 @@ function TransportaionArea() {
                             <div className="icon">
                                 <img src="img/svg_icon/live.png" alt="" />
                             </div>
-                            <h3>Live Monitoring</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                                placing drawing.</p>
+                            <h3>Jonli kuzatuv</h3>
+                            <p>Yukingizning logistikasini va ayni vaqtda qayerda, kimning qo`lida ekanligini kuzatish imkoniyati</p>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6">
@@ -30,9 +28,8 @@ function TransportaionArea() {
                             <div className="icon">
                                 <img src="img/svg_icon/world.png" alt="" />
                             </div>
-                            <h3>Worldwide Service</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                                placing drawing.</p>
+                            <h3>Xalqaro xizmatlar</h3>
+                            <p>Istalgan davlatdan O`zbekistonga va O`zbekistondan istalgan davlatga yetkazib berish uchun sizga yordam beramiz</p>
                         </div>
                     </div>
                 </div>

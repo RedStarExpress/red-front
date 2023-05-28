@@ -9,14 +9,14 @@ function Footer() {
                         <div className="col-xl-3 col-md-6 col-lg-3">
                             <div className="footer_widget">
                                 <h3 className="footer_title">
-                                    Services
+                                    Xizmatlar
                                 </h3>
                                 <ul>
-                                    <li><a href="/">Air Transportation</a></li>
-                                    <li><a href="/">Ocean Freight</a></li>
-                                    <li><a href="/">Ocean Cargo</a></li>
-                                    <li><a href="/">Logistics</a></li>
-                                    <li><a href="/">Warehouse Moving</a></li>
+                                    <li><a href="/">Avia kargo</a></li>
+                                    <li><a href="/"></a>Avto kargo</li>
+                                    <li><a href="/">Temir yo`l kargo</a></li>
+                                    <li><a href="/"></a></li>
+                                    <li><a href="/">Xitoydagi ombor xizmati</a></li>
                                 </ul>
 
                             </div>
@@ -24,13 +24,13 @@ function Footer() {
                         <div className="col-xl-2 col-md-6 col-lg-2">
                             <div className="footer_widget">
                                 <h3 className="footer_title">
-                                    Company
+                                    Kompaniya
                                 </h3>
                                 <ul>
-                                    <li><a href="/">About</a></li>
-                                    <li><a href="/">News</a></li>
-                                    <li><a href="/"> Testimonials</a></li>
-                                    <li><a href="/"> Why Us?</a></li>
+                                    <li><a href="/">Haqida</a></li>
+                                    <li><a href="/">Yangiliklar</a></li>
+                                    <li><a href="/">Mamnun mijozlar</a></li>
+                                    <li><a href="/"> Nima uchun biz?</a></li>
                                 </ul>
                             </div>
                         </div>
