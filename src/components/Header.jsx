@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import SearchModal from './SearchModal'
+import logotip from "../assets/logatip.png"
 
 function Header() {
     const [showSearchModal, setShowSearchModal] = useState(false)
@@ -16,7 +17,7 @@ function Header() {
                                 <div className="col-xl-4 col-lg-4">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src="img/logo.png" alt="" />
+                                            <img src={logotip} alt="" style={{width: "250px"}}/>
                                         </Link>
                                     </div>
                                 </div>

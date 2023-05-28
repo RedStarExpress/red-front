@@ -8,6 +8,8 @@ function TrackCode() {
     const location = useLocation();
     const trackCodeRef = useRef()
 
+    console.log(location);
+
     useEffect(() => {
         if (location.state) {
             axiosInstance.get(`/track/code/findByCode?code=${location.state}`)
@@ -55,7 +57,7 @@ function TrackCode() {
                 </div>
             </div>
 
-            <section className='container'>
+            <section className='container' style={{marginTop: "32px"}}>
                 <form onSubmit={search}>
                     <div className="row track-code">
                         <div className="col-lg-9 col-md-6 col-sm-12 mb-3">
