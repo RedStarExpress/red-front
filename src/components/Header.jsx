@@ -10,7 +10,7 @@ function Header() {
     return (
         <>
             <header>
-                <div className="header-area ">
+                <div className="header-area">
                     <div className="header-top_area d-none d-lg-block">
                         <div className="container">
                             <div className="row align-items-center">
@@ -46,20 +46,21 @@ function Header() {
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-9 col-lg-9">
+                                    <div class="col-xl-10 col-lg-10">
                                         <div class="main-menu  d-none d-lg-block">
                                             <nav>
                                                 <ul id="navigation">
                                                     <li><Link to="/">Asosiy sahifa</Link></li>
                                                     <li><Link to="/track_code">Trek kod</Link></li>
                                                     <li><Link to="/news">Yangiliklar</Link></li>
-                                                    <li><Link to="/services">Biz haqimizda</Link></li>
+                                                    <li><Link to="/services">Bizning xizmatlar</Link></li>
+                                                    <li><Link to="/about">Biz haqimizda</Link></li>
                                                     <li><Link to="/contact_us">Bog'lanish</Link></li>
                                                 </ul>
                                             </nav>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                    <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                                         <div class="Appointment justify-content-end">
                                             <div class="search_btn">
                                                 <button style={{ background: "#FF3414", border: "none", color: "#fff", borderRadius: "50%", width: "40px", height: "40px", cursor: "pointer" }}
@@ -80,7 +81,8 @@ function Header() {
                                                 <ul id="navigation">
                                                     <li><Link to="/">Asosiy sahifa</Link></li>
                                                     <li><Link to="/track_code">Trek kod</Link></li>
-                                                    <li><Link to="/services">Biz haqimizda</Link></li>
+                                                    <li><Link to="/services">Bizning xizmatlar</Link></li>
+                                                    <li><Link to="/about">Biz haqimizda</Link></li>
                                                     <li><Link to="/contact_us">Bog'lanish</Link></li>
                                                 </ul>
                                             </ul></div></div>
@@ -108,7 +110,7 @@ function Header() {
                                                 <ul id="navigation">
                                                     <li><Link to="/">Asosiy sahifa</Link></li>
                                                     <li><Link to="/track_code">Trek kod</Link></li>
-                                                    <li><Link to="/services">Biz haqimizda</Link></li>
+                                                    <li><Link to="/services">Bizning xizmatlar</Link></li>
                                                     <li><Link to="/contact_us">Bog'lanish</Link></li>
                                                 </ul>
                                             </nav>
