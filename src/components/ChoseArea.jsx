@@ -13,17 +13,19 @@ function ChoseArea() {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="features_info">
-                        <h3>Why Choose Us?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
+                        <h3>Nima uchun bizning kargo xizmatimiz?</h3>
+                        <p>Xitoydan yetkazib berish uchun nimaga aynan RedStarExpressni tanlash kerak?
                         </p>
                         <ul>
-                            <li> Apartments frequently or motionless. </li>
-                            <li> Duis aute irure dolor in reprehenderit in voluptate. </li>
-                            <li> Voluptatem quia voluptas sit aspernatur.</li>
+                            <li> 100% ishonchli va xavfsizligi uchun </li>
+                            <li> operatorlar 24/7 aloqada bo`lishadi </li>
+                            <li> Biznesingiz rivojlanishi uchun kerak bo`lgan uskunalarni eng arzon va tez olib kelish bo`yicha bepul konsultatsiyalar uchun</li>
+                            <li> Omborga borgan barcha yuklar uchun to`liq javob beriladi </li>
+                            <li> Qo`shimcha har qanday savol yuzasidan adminga murojaat qilishingiz mumkin ↓ </li>
                         </ul>
 
                         <div className="about_btn">
-                            <a className="boxed-btn3-line" href="about.html">About Us</a>
+                            <a className="boxed-btn3-line" href="about.html">RedStarExpress_admin</a>
                         </div>
                     </div>
                 </div>

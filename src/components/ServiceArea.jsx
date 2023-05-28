@@ -11,7 +11,7 @@ function ServiceArea() {
                     <div className="col-xl-12">
                         <div className="section_title mb-50 text-center">
                             <h3>
-                                Services We Offer
+                                Biz ushbu xizmatlarni taklif qilamiz
                             </h3>
                         </div>
                     </div>
@@ -24,8 +24,8 @@ function ServiceArea() {
                                     <img src="img/service/1.png" alt="" />
                                 </div>
                                 <div className="service_info">
-                                    <h3><a href="service_details.html">Ocean Freight</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                                    <h3><a href="service_details.html">Temir yo`l orqali</a></h3>
+                                    <p>Extiyot qilinishi kerak bo`lgan katta hajmdagi stanok, ehtiyot qismlari, avtomobil yoki shu kabi mahsulotlar uchun</p>
                                 </div>
                             </div>
                             <div className="single_service item">
@@ -33,8 +33,8 @@ function ServiceArea() {
                                     <img src="img/service/2.png" alt="" />
                                 </div>
                                 <div className="service_info">
-                                    <h3><a href="service_details.html">Land Transport</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                                    <h3><a href="service_details.html">Avto kargo xizmati</a></h3>
+                                    <p>Istalgan hajmdagi yuklaringizni ancha arzon va sifatli yetkazib berish uchun</p>
                                 </div>
                             </div>
                             <div className="single_service item">
@@ -42,8 +42,8 @@ function ServiceArea() {
                                     <img src="img/service/3.png" alt="" />
                                 </div>
                                 <div className="service_info">
-                                    <h3><a href="service_details.html">Air Freight</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                                    <h3><a href="service_details.html">Avia kargo xizmati</a></h3>
+                                    <p>Eng tez va oson yo`l bilan olib kelish xizmati, faqat vazni uchun to`lanadi va tayyor, darhol qo`lingizga olasiz</p>
                                 </div>
                             </div>
                             <div className="single_service item">
@@ -51,7 +51,7 @@ function ServiceArea() {
                                     <img src="img/service/1.png" alt="" />
                                 </div>
                                 <div className="service_info">
-                                    <h3><a href="service_details.html">Ocean Freight</a></h3>
+                                    <h3><a href="service_details.html">Temir yo`l orqali</a></h3>
                                     <p>Esteem spirit temper too say adieus who direct esteem.</p>
                                 </div>
                             </div>

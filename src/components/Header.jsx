@@ -25,8 +25,8 @@ function Header() {
                                     <div className="header_right d-flex align-items-center">
                                         <div className="short_contact_list">
                                             <ul>
-                                                <li><a href="mailto: keldiyorraxmatov1303@gmail.com" style={{ fontSize: "16px" }}> <i className="fa fa-envelope"></i> keldiyorraxmatov1303@gmail.com</a></li>
-                                                <li><a href="tel: +998941234517" style={{ fontSize: "16px" }}> <i className="fa fa-phone"></i>+998-94-123-45-17</a></li>
+                                                <li><a href="mailto: RedstarExpress_uz@gmail.com" style={{ fontSize: "16px" }}> <i className="fa fa-envelope"></i> RedStarExpress_uz@gmail.com</a></li>
+                                                <li><a href="tel: +998-90-665-15-25" style={{ fontSize: "16px" }}> <i className="fa fa-phone"></i>+998-90-665-15-25</a></li>
                                             </ul>
                                         </div>
                                     </div>

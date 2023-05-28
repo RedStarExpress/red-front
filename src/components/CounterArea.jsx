@@ -12,7 +12,7 @@ function CounterArea() {
                                 <h3> <span className="counter">
                                     <CountUp start={0} end={42} enableScrollSpy/>
                                 </span> <span>+</span> </h3>
-                                <p>Countries Covered</p>
+                                <p>Mintaqaviy filiallar soni</p>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-3">
@@ -20,7 +20,7 @@ function CounterArea() {
                                 <h3> <span className="counter">
                                     <CountUp start={0} end={97} enableScrollSpy/>
                                 </span> <span>+</span> </h3>
-                                <p>Business Success</p>
+                                <p>Xalqaro filiallar soni</p>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-3">
@@ -28,7 +28,7 @@ function CounterArea() {
                                 <h3> <span className="counter">
                                     <CountUp start={0} end={2342} enableScrollSpy/>
                                 </span></h3>
-                                <p>Happy Client</p>
+                                <p>Mamnun mijozlar</p>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-3">
@@ -36,7 +36,7 @@ function CounterArea() {
                                 <h3> <span className="counter">
                                     <CountUp start={0} end={3245} enableScrollSpy/>
                                 </span></h3>
-                                <p>Business Done</p>
+                                <p>Bajarilgan ishlar (t)</p>
                             </div>
                         </div>
                     </div>

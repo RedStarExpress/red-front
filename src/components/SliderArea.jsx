@@ -8,10 +8,9 @@ function SliderArea() {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-8">
                             <div className="slider_text text-center justify-content-center">
-                                <p>For Personal & Business</p>
-                                <h3>Global Logistic Service
-                                    For Business</h3>
-                                <a className="boxed-btn3" href="service.html">Our Services</a>
+                                <p>eng sifatli, eng tez</p>
+                                <h3>Xitoy davlatidan yetkazib berish xizmati</h3>
+                                <a className="boxed-btn3" href="service.html">Bizning xizmatlar</a>
                             </div>
                         </div>
                     </div>

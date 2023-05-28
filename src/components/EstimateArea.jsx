@@ -7,10 +7,9 @@ function EstimateArea() {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-5">
                         <div className="Estimate_info">
-                            <h3>Get free Estimate</h3>
-                            <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                                placing.</p>
-                            <a href="/" className="boxed-btn3">+10 672 457 356</a>
+                            <h3>Maxsus taklif va murojaatlar uchun</h3>
+                            <p>operatorlar xatosi, servisdagi kamchiliklar yoki bizda ko`rishni hohlagan yangiliklaringiz bo`yicha BOSH ADMIN ga murojaat qiling!</p>
+                            <a href="/" className="boxed-btn3">+998 93 455 24 28</a>
                         </div>
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-7">
@@ -19,12 +18,12 @@ function EstimateArea() {
                                 <div className="row">
                                     <div className="col-xl-6">
                                         <div className="input_field">
-                                            <input type="text" placeholder="Your name" />
+                                            <input type="text" placeholder="Sizning ismingiz" />
                                         </div>
                                     </div>
                                     <div className="col-xl-6">
                                         <div className="input_field">
-                                            <input type="email" placeholder="Email" />
+                                            <input type="email" placeholder="Pochta manzilingiz" />
                                         </div>
                                     </div>
                                     <div className="col-xl-6">
@@ -54,12 +53,12 @@ function EstimateArea() {
 
                                     <div className="col-xl-12">
                                         <div className="input_field">
-                                            <textarea placeholder="Message"></textarea>
+                                            <textarea placeholder="Xabarni yozing"></textarea>
                                         </div>
                                     </div>
                                     <div className="col-xl-12">
                                         <div className="input_field">
-                                            <button className="boxed-btn3-line" type="submit">Send Estimate</button>
+                                            <button className="boxed-btn3-line" type="submit">Xabarni yuborish</button>
                                         </div>
                                     </div>
                                 </div>

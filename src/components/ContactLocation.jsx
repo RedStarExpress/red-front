@@ -22,16 +22,15 @@ function ContactLocation() {
                 </div>
                 <div className="col-xl-3 col-md-3">
                     <div className="single_location">
-                        <h3> <img src="img/icon/address.svg" alt="" /> Location</h3>
-                        <p>600/D, Kings road, Green lane
-                            NewYork-2563</p>
+                        <h3> <img src="img/icon/address.svg" alt="" /> Manzil</h3>
+                        <p> Toshkent shahar, Sergeli tumani</p>
                     </div>
                 </div>
                 <div className="col-xl-3 col-md-3">
                     <div className="single_location">
-                        <h3> <img src="img/icon/support.svg" alt="" /> Location</h3>
-                        <p>+10 267 3563 4562 <br />
-                            support@logistico.com</p>
+                        <h3> <img src="img/icon/support.svg" alt="" /> Bog`lanish</h3>
+                        <p>+998 90 665 1525 <br />
+                        RedStarExpress_uz@gmail.com</p>
                     </div>
                 </div>
             </div>

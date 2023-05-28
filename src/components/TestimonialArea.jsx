@@ -16,14 +16,13 @@ function TestimonialArea() {
                                 <div className="quote">
                                     <img src="img/svg_icon/quote.svg" alt="" />
                                 </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
+                                <p>Buyurtmalar kelish tezligi juda zo`r, barcha yuklarim xavfsiz va lat yemagan holda kelyapti...</p>
                                 <div className="testmonial_author">
                                     <div className="thumb">
                                         <img src="img/case/testmonial.png" alt="" />
                                     </div>
-                                    <h3>Robert Thomson</h3>
-                                    <span>Business Owner</span>
+                                    <h3>Maftuna</h3>
+                                    <span>Internet magazin asoschisi</span>
                                 </div>
                             </div>
                         </div>
@@ -32,14 +31,13 @@ function TestimonialArea() {
                                 <div className="quote">
                                     <img src="img/svg_icon/quote.svg" alt="" />
                                 </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
+                                <p>Bozorga qaraganda narxlar juda past, sifat esa yuqori! Kargoni yetkazib berishda umuman muammo qilishmadi va servisga gap bo`lishi mumkin emas.</p>
                                 <div className="testmonial_author">
                                     <div className="thumb">
                                         <img src="img/case/testmonial.png" alt="" />
                                     </div>
-                                    <h3>Robert Thomson</h3>
-                                    <span>Business Owner</span>
+                                    <h3>Shaxzod</h3>
+                                    <span>Shaxsiy foydalanish uchun</span>
                                 </div>
                             </div>
                         </div>
@@ -48,14 +46,13 @@ function TestimonialArea() {
                                 <div className="quote">
                                     <img src="img/svg_icon/quote.svg" alt="" />
                                 </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
+                                <p>Barcha kargolarga qaraganda arzon va juda tez yetkazib berishdi.</p>
                                 <div className="testmonial_author">
                                     <div className="thumb">
                                         <img src="img/case/testmonial.png" alt="" />
                                     </div>
-                                    <h3>Robert Thomson</h3>
-                                    <span>Business Owner</span>
+                                    <h3>Shodmonov Doniyor</h3>
+                                    <span>talaba</span>
                                 </div>
                             </div>
                         </div>
