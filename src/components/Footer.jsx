@@ -1,4 +1,5 @@
 import React from 'react'
+import footerLogo from "../assets/footer-logo.jpg"
 
 function Footer() {
     return (
@@ -7,6 +8,18 @@ function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-3 col-md-6 col-lg-3">
+                            <div className="footer_widget">
+                                <img src={footerLogo} alt="" width="100%" />
+                            </div>
+                        </div>
+
+                        <div className="col-xl-5 col-md-6 col-lg-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae, nulla nisi eius eligendi recusandae quae delectus rem porro, odio voluptas ut ab, perferendis optio hic facere voluptates neque omnis animi enim quod eveniet! Culpa beatae eos, veniam possimus molestiae non eveniet, magni nihil vitae, iure tempora provident facilis natus.
+                            </p>
+                        </div>
+
+                        <div className="col-xl-2 col-md-6 col-lg-3">
                             <div className="footer_widget">
                                 <h3 className="footer_title">
                                     Xizmatlar
@@ -21,7 +34,7 @@ function Footer() {
 
                             </div>
                         </div>
-                        <div className="col-xl-2 col-md-6 col-lg-2">
+                        <div className="col-xl-2 col-md-6 col-lg-3">
                             <div className="footer_widget">
                                 <h3 className="footer_title">
                                     Kompaniya
@@ -34,33 +47,8 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-md-6 col-lg-3">
-                            <div className="footer_widget">
-                                <h3 className="footer_title">
-                                    Industries
-                                </h3>
-                                <ul>
-                                    <li><a href="/">Chemicals</a></li>
-                                    <li><a href="/">Automotive</a></li>
-                                    <li><a href="/"> Consumer Goods</a></li>
-                                    <li><a href="/">Life Science</a></li>
-                                    <li><a href="/">Foreign Trade</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-md-6 col-lg-4">
-                            <div className="footer_widget">
-                                <h3 className="footer_title">
-                                    Subscribe
-                                </h3>
-                                <form action="#" className="newsletter_form">
-                                    <input type="text" placeholder="Enter your mail" />
-                                    <button type="submit">Subscribe</button>
-                                </form>
-                                <p className="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                    luckily.</p>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
             </div>

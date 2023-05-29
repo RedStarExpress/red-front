@@ -6,10 +6,10 @@ function News() {
     const [data, setData] = useState()
 
     useEffect(() => {
-        axiosInstance.get(`/news/get-list??page=${0}&size=${10}`)
+        axiosInstance.get(`/news/full-list`)
             .then((res) => {
                 console.log(res.data);
-                setData(res.data.content);
+                setData(res.data);
             })
     }, [])
 

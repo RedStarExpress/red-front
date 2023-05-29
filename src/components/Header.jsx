@@ -40,7 +40,7 @@ function Header() {
                             <div class="header_bottom_border">
                                 <div class="row align-items-center">
                                     <div class="col-12 d-block d-lg-none">
-                                        <div class="logo" style={{display: "flex", alignItems: "center"}}>
+                                        <div class="logo" style={{ display: "flex", alignItems: "center" }}>
                                             <Link href="/">
                                                 <img src={logotip} alt="" style={{ width: "200px" }} />
                                             </Link>
@@ -79,11 +79,12 @@ function Header() {
                                                     </span><span class="slicknav_icon-bar"></span></span></button>
                                             <ul id='nav' class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style={{ display: show ? "block" : "none" }}>
                                                 <ul id="navigation">
-                                                    <li><Link to="/">Asosiy sahifa</Link></li>
-                                                    <li><Link to="/track_code">Trek kod</Link></li>
-                                                    <li><Link to="/services">Bizning xizmatlar</Link></li>
-                                                    <li><Link to="/about">Biz haqimizda</Link></li>
-                                                    <li><Link to="/contact_us">Bog'lanish</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/">Asosiy sahifa</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/track_code">Trek kod</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/news">Yangiliklar</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/services">Bizning xizmatlar</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/about">Biz haqimizda</Link></li>
+                                                    <li><Link onClick={() => setShow(!show)} to="/contact_us">Bog'lanish</Link></li>
                                                 </ul>
                                             </ul></div></div>
                                     </div>
