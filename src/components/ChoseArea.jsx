@@ -25,7 +25,7 @@ function ChoseArea() {
                         </ul>
 
                         <div className="about_btn">
-                            <a className="boxed-btn3-line" href="about.html">RedStarExpress_admin</a>
+                            <a className="boxed-btn3-line" href="https://t.me/RedStarExpress_admin" target='_blank' rel="noreferrer">RedStarExpress_admin</a>
                         </div>
                     </div>
                 </div>
