@@ -44,7 +44,7 @@ function ServiceArea() {
                     <div className="col-xl-12">
                         <div className="section_title mb-50 text-center">
                             <h3>
-                                Biz ushbu xizmatlarni taklif qilamiz
+                                Eng so'ngi yangiliklar
                             </h3>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ function ContactActionArea() {
                 </div>
                 <div className="col-xl-5 col-md-6">
                     <div className="call_add_action">
-                        <a href="tel:+998941234517" className="boxed-btn3">+998 90 665 15 25</a>
+                        <a href="tel:+998906651525" className="boxed-btn3">+998 90 665 15 25</a>
                     </div>
                 </div>
             </div>
