@@ -17,7 +17,7 @@ function Header() {
                                 <div className="col-xl-4 col-lg-4">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src={logotip} alt="" style={{width: "250px"}}/>
+                                            <img src={logotip} alt="" style={{ width: "250px" }} />
                                         </Link>
                                     </div>
                                 </div>
@@ -40,10 +40,10 @@ function Header() {
                             <div class="header_bottom_border">
                                 <div class="row align-items-center">
                                     <div class="col-12 d-block d-lg-none">
-                                        <div class="logo">
-                                            <a href="index.html">
-                                                <img src="img/logo.png" alt="" />
-                                            </a>
+                                        <div class="logo" style={{display: "flex", alignItems: "center"}}>
+                                            <Link href="/">
+                                                <img src={logotip} alt="" style={{ width: "200px" }} />
+                                            </Link>
                                         </div>
                                     </div>
                                     <div class="col-xl-10 col-lg-10">
