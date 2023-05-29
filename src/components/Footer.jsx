@@ -14,7 +14,7 @@ function Footer() {
                         </div>
 
                         <div className="col-xl-5 col-md-6 col-lg-3">
-                            <p>
+                            <p className='mb-3'>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae, nulla nisi eius eligendi recusandae quae delectus rem porro, odio voluptas ut ab, perferendis optio hic facere voluptates neque omnis animi enim quod eveniet! Culpa beatae eos, veniam possimus molestiae non eveniet, magni nihil vitae, iure tempora provident facilis natus.
                             </p>
                         </div>

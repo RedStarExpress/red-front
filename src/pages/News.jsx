@@ -6,7 +6,7 @@ function News() {
     const [data, setData] = useState()
 
     useEffect(() => {
-        axiosInstance.get(`/news/full-list`)
+        axiosInstance.get(`${url}/news/full-list`)
             .then((res) => {
                 console.log(res.data);
                 setData(res.data);
@@ -15,11 +15,11 @@ function News() {
 
     return (
         <>
-            <div class="bradcam_area bradcam_bg_1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="bradcam_text text-center">
+            <div className="bradcam_area bradcam_bg_1">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="bradcam_text text-center">
                                 <h3>Yangiliklar</h3>
 
                                 <span style={{ color: "#fff", fontSize: "24px", fontWeight: "500" }}>
@@ -31,15 +31,15 @@ function News() {
                 </div>
             </div>
 
-            <div class="service_area">
-                <div class="container">
-                    <div class="row">
+            <div className="service_area">
+                <div className="container">
+                    <div className="row">
                         {
                             data?.length && data?.map((item) => {
                                 return (
-                                    <div class="col-md-6 col-lg-4">
-                                        <div class="single_service">
-                                            <div class="thumb">
+                                    <div className="col-md-6 col-lg-4">
+                                        <div className="single_service">
+                                            <div className="thumb">
                                                 {
                                                     !item?.media ? (
                                                         <>
@@ -56,7 +56,7 @@ function News() {
                                                         )
                                                 }
                                             </div>
-                                            <div class="service_info">
+                                            <div className="service_info">
                                                 <h3><Link to={`/news_detail/${item.id}`}>{item.title}</Link></h3>
                                                 <p>{item.shortInformation}</p>
                                             </div>
@@ -65,62 +65,6 @@ function News() {
                                 )
                             })
                         }
-                        {/* <div class="col-md-6 col-lg-4">
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/2.png" alt="" />
-                                </div>
-                                <div class="service_info">
-                                    <h3><a href="service_details.html">Land Transport</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/3.png" alt="" />
-                                </div>
-                                <div class="service_info">
-                                    <h3><a href="service_details.html">Air Freight</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/4.png" alt="" />
-                                </div>
-                                <div class="service_info">
-                                    <h3><a href="service_details.html">Ocean Freight</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/5.png" alt="" />
-                                </div>
-                                <div class="service_info">
-                                    <h3><a href="service_details.html">Land Transport</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/6.png" alt="" />
-                                </div>
-                                <div class="service_info">
-                                    <h3><a href="service_details.html">Air Freight</a></h3>
-                                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>

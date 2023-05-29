@@ -5,11 +5,11 @@ import poyezd3 from "../assets/poyezd3.jpg"
 function Services() {
     return (
         <>
-            <div class="bradcam_area bradcam_area2  bradcam_bg_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="bradcam_text text-center">
+            <div className="bradcam_area bradcam_area2  bradcam_bg_2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="bradcam_text text-center">
                                 <h3>Bizning xizmatlar</h3>
                             </div>
                         </div>
@@ -17,28 +17,28 @@ function Services() {
                 </div>
             </div>
 
-            <div class="service_details_area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="service_details_left">
+            <div className="service_details_area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-4">
+                            <div className="service_details_left">
                                 <h3>Xizmatlar</h3>
-                                <div class="nav nav-pills" id="v-pills-tab" role="tablist"
+                                <div className="nav nav-pills" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
-                                    <a class=" active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                    <a className=" active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                         role="tab" aria-controls="v-pills-home" aria-selected="true">Temir yo'l kargosi</a>
-                                    <a class="" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                    <a className="" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                         role="tab" aria-controls="v-pills-profile" aria-selected="false">Avto kargo</a>
-                                    <a class="" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                                    <a className="" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
                                         role="tab" aria-controls="v-pills-messages" aria-selected="false">Avia kargo</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-8">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        <div className="col-lg-8 col-md-8">
+                            <div className="tab-content" id="v-pills-tabContent">
+                                <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                     aria-labelledby="v-pills-home-tab">
-                                    <div class="service_details_info">
+                                    <div className="service_details_info">
                                         <h3>TEMIR YO'L KARGOSI</h3>
                                         <p>Temir yo'l yuk tashish - bu inson yo'lovchilaridan farqli o'laroq, yuklarni tashish uchun temir yo'llar va poezdlardan foydalanish.
 
@@ -48,33 +48,33 @@ Iste'mol qilingan energiya birligi uchun tonna-mil yoki tonna-kilometr hisoblang
                                         </p>
                                         
                                     </div>
-                                    <div class="service_thumb">
-                                        <img class="img-fluid" src={avia} alt="" style={{width: "100%"}}/>
+                                    <div className="service_thumb">
+                                        <img className="img-fluid" src={avia} alt="" style={{width: "100%"}}/>
                                     </div>
-                                    <div class="accordion_area">
-                                        <div class="faq_ask">
+                                    <div className="accordion_area">
+                                        <div className="faq_ask">
                                             <h3>Tez-Tez beriladigan savollar</h3>
                                             <div id="accordion">
-                                                <div class="card">
-                                                    <div class="card-header" id="headingTwo">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingTwo">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseTwo" aria-expanded="false"
                                                                 aria-controls="collapseTwo">
                                                                 Temir yo'l kargosi orqali elektromobillar ham keltirish mumkinmi? 
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Ha, albatta. Juda tez va ancha arzon keladi. Qo`shimcha ma`lumotlar yuzasidan telegram orqali adminga murojaat qilishingiz mumkin.
+                                                        <div className="card-body">Ha, albatta. Juda tez va ancha arzon keladi. Qo`shimcha ma`lumotlar yuzasidan telegram orqali adminga murojaat qilishingiz mumkin.
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card">
-                                                    <div class="card-header" id="headingOne">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingOne">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseOne" aria-expanded="false"
                                                                 aria-controls="collapseOne">
                                                                 Temir yo'l kargosida o`zim uchun kiyim-kechak yoki oyoq kiyimlar olib kelishim mumkinmi? <br />
@@ -82,9 +82,9 @@ Iste'mol qilingan energiya birligi uchun tonna-mil yoki tonna-kilometr hisoblang
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                                    <div id="collapseOne" className="collapse" aria-labelledby="headingOne"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Afsuski buning iloji yo`q, lekin siz biror joyda (omborda) yuklaringizni yig`dirib butun konteyner zakaz qilishingiz mumkin!
+                                                        <div className="card-body">Afsuski buning iloji yo`q, lekin siz biror joyda (omborda) yuklaringizni yig`dirib butun konteyner zakaz qilishingiz mumkin!
                                                         </div>
                                                     </div>
                                                 
@@ -92,24 +92,24 @@ Iste'mol qilingan energiya birligi uchun tonna-mil yoki tonna-kilometr hisoblang
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="download_brochure d-flex align-items-center justify-content-between">
-                                        <div class="download_left d-flex align-items-center">
-                                            <div class="icon">
+                                    {/* <div className="download_brochure d-flex align-items-center justify-content-between">
+                                        <div className="download_left d-flex align-items-center">
+                                            <div className="icon">
                                                 <img src="img/svg_icon/download.svg" alt="" />
                                             </div>
-                                            <div class="download_text">
+                                            <div className="download_text">
                                                 <h3>Download Our Brochure</h3>
                                                 <p>Esteem spirit temper too say adieus who direct.</p>
                                             </div>
                                         </div>
-                                        <div class="download_right">
-                                            <a class="boxed-btn3-line" href="/">Download Now</a>
+                                        <div className="download_right">
+                                            <a className="boxed-btn3-line" href="/">Download Now</a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                <div className="tab-pane fade" id="v-pills-profile" role="tabpanel"
                                     aria-labelledby="v-pills-profile-tab">
-                                    <div class="service_details_info">
+                                    <div className="service_details_info">
                                         <h3>AVTO KARGO</h3>
                                         <p>Relsiz transport - temir yo'ldan foydalanmaydigan barcha quruqlikdagi transport turlarining umumiy nomi.
 
@@ -117,82 +117,82 @@ Treksiz transport turlarining harakati uchun har qanday tekis, qattiq sirt etarl
                                         </p>
                                         
                                     </div>
-                                    <div class="service_thumb">
-                                        <img class="img-fluid" src="img/service/service_details.png" alt="" />
+                                    <div className="service_thumb">
+                                        <img className="img-fluid" src="img/service/service_details.png" alt="" />
                                     </div>
-                                    <div class="accordion_area">
-                                        <div class="faq_ask">
+                                    <div className="accordion_area">
+                                        <div className="faq_ask">
                                             <h3>Tez-Tez beriladigan savollar</h3>
                                             <div id="accordion">
-                                                <div class="card">
-                                                    <div class="card-header" id="headingTwo1">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingTwo1">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseTwo1" aria-expanded="false"
                                                                 aria-controls="collapseTwo">
                                                                 Avto kargoga buyurtma bersilsa necha kunda O'zbekistonga keladi?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1"
+                                                    <div id="collapseTwo1" className="collapse" aria-labelledby="headingTwo1"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Avto kargoda yuklar o'rtacha 18-25 kunda keladi.
+                                                        <div className="card-body">Avto kargoda yuklar o'rtacha 18-25 kunda keladi.
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card">
-                                                    <div class="card-header" id="headingOne2">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingOne2">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseOne2" aria-expanded="false"
                                                                 aria-controls="collapseOne">
                                                                 Butun boshli fura uchun buyurtma qilsa bo`ladimi?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2"
+                                                    <div id="collapseOne2" className="collapse" aria-labelledby="headingOne2"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Ha, albatta. Xatto sizga ancha arzonga tushadi. Qo'shimcha ma'lumot uchun adminga murojaat qilishingiz mumkin.
+                                                        <div className="card-body">Ha, albatta. Xatto sizga ancha arzonga tushadi. Qo'shimcha ma'lumot uchun adminga murojaat qilishingiz mumkin.
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card">
-                                                    <div class="card-header" id="headingThree3">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingThree3">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseThree3" aria-expanded="false"
                                                                 aria-controls="collapseThree">
                                                                 Avto kargoda barcha mahsulotlarni olib kelish mumkinmi?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3"
+                                                    <div id="collapseThree3" className="collapse" aria-labelledby="headingThree3"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Mumkin, barcha turdagi mahsulotlarni eng tez va xavfsiz keltirishga kafolat beriladi. (Faqat davlat tomonidan taqiqlangan buyumlar, kontrabanda mahsulotlari mumkin emas!)
+                                                        <div className="card-body">Mumkin, barcha turdagi mahsulotlarni eng tez va xavfsiz keltirishga kafolat beriladi. (Faqat davlat tomonidan taqiqlangan buyumlar, kontrabanda mahsulotlari mumkin emas!)
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="download_brochure d-flex align-items-center justify-content-between">
-                                        <div class="download_left d-flex align-items-center">
-                                            <div class="icon">
+                                    {/* <div className="download_brochure d-flex align-items-center justify-content-between">
+                                        <div className="download_left d-flex align-items-center">
+                                            <div className="icon">
                                                 <img src="img/svg_icon/download.svg" alt="" />
                                             </div>
-                                            <div class="download_text">
+                                            <div className="download_text">
                                                 <h3>Download Our Brochure</h3>
                                                 <p>Esteem spirit temper too say adieus who direct.</p>
                                             </div>
                                         </div>
-                                        <div class="download_right">
-                                            <a class="boxed-btn3-line" href="/">Download Now</a>
+                                        <div className="download_right">
+                                            <a className="boxed-btn3-line" href="/">Download Now</a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                <div className="tab-pane fade" id="v-pills-messages" role="tabpanel"
                                     aria-labelledby="v-pills-messages-tab">
-                                    <div class="service_details_info">
+                                    <div className="service_details_info">
                                         <h3>AVIA KARGO</h3>
                                         <p>Tasniflash
 Havo transporti odatda yo'nalish, yuk toifasi va yuklash turi bo'yicha tasniflanadi.
@@ -227,78 +227,78 @@ yuk havo kemasi, undagi odamlar va mol-mulk uchun xavf tug‘dirmasligi, shuning
                                         </p>
                                         
                                     </div>
-                                    <div class="service_thumb">
-                                        <img class="img-fluid" src={avia} alt="" />
+                                    <div className="service_thumb">
+                                        <img className="img-fluid" src={avia} alt="" />
                                     </div>
-                                    <div class="accordion_area">
-                                        <div class="faq_ask">
+                                    <div className="accordion_area">
+                                        <div className="faq_ask">
                                             <h3>Tez-Tez beriladigan savollar</h3>
                                             <div id="accordion">
-                                                <div class="card">
-                                                    <div class="card-header" id="headingTwoa">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingTwoa">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseTwoa" aria-expanded="false"
                                                                 aria-controls="collapseTwo">
                                                                 Avia kargo yetkazib berish muddati necha kun?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseTwoa" class="collapse" aria-labelledby="headingTwoa"
+                                                    <div id="collapseTwoa" className="collapse" aria-labelledby="headingTwoa"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">Bizning xitoydagi omborimizga borgan kundan boshlab 7-14 kunda yetkazib beriladi
+                                                        <div className="card-body">Bizning xitoydagi omborimizga borgan kundan boshlab 7-14 kunda yetkazib beriladi
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card">
-                                                    <div class="card-header" id="headingOne">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingOne">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseOneb" aria-expanded="false"
                                                                 aria-controls="collapseOneb">
                                                                 Avia kargoda ishlamoqchiman qanday kod olsam bo'ladi?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseOneb" class="collapse" aria-labelledby="headingOneb"
+                                                    <div id="collapseOneb" className="collapse" aria-labelledby="headingOneb"
                                                         data-parent="#accordion">
-                                                        <div class="card-body">ID kod olish uchun telegram botdan ro'yhatdan o'tish kerak. Botni admindan so'rashingiz mumkin.
+                                                        <div className="card-body">ID kod olish uchun telegram botdan ro'yhatdan o'tish kerak. Botni admindan so'rashingiz mumkin.
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="card">
-                                                    <div class="card-header" id="headingThree">
-                                                        <h5 class="mb-0">
-                                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                <div className="card">
+                                                    <div className="card-header" id="headingThree">
+                                                        <h5 className="mb-0">
+                                                            <button className="btn btn-link collapsed" data-toggle="collapse"
                                                                 data-target="#collapseThreev" aria-expanded="false"
                                                                 aria-controls="collapseThree">
                                                                 Qanday mahsulotlar mumkin emas?
                                                             </button>
                                                         </h5>
                                                     </div>
-                                                    <div id="collapseThreev" class="collapse" aria-labelledby="headingThreev"
+                                                    <div id="collapseThreev" className="collapse" aria-labelledby="headingThreev"
                                                         data-parent="#accordion">
-                                                        <div class="card-body"> Telegram orqali RedStarExpress kanaliga obuna bo'lsangiz mumkin bo'lmagan yuklar va nima uchun mumkin emasligining sabablari ko'rsatilgan.
+                                                        <div className="card-body"> Telegram orqali RedStarExpress kanaliga obuna bo'lsangiz mumkin bo'lmagan yuklar va nima uchun mumkin emasligining sabablari ko'rsatilgan.
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="download_brochure d-flex align-items-center justify-content-between">
-                                        <div class="download_left d-flex align-items-center">
-                                            <div class="icon">
+                                    {/* <div className="download_brochure d-flex align-items-center justify-content-between">
+                                        <div className="download_left d-flex align-items-center">
+                                            <div className="icon">
                                                 <img src="img/svg_icon/download.svg" alt="" />
                                             </div>
-                                            <div class="download_text">
+                                            <div className="download_text">
                                                 <h3>Download Our Brochure</h3>
                                                 <p>Esteem spirit temper too say adieus who direct.</p>
                                             </div>
                                         </div>
-                                        <div class="download_right">
-                                            <a class="boxed-btn3-line" href="/">Download Now</a>
+                                        <div className="download_right">
+                                            <a className="boxed-btn3-line" href="/">Download Now</a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

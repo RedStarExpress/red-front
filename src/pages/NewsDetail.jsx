@@ -15,21 +15,21 @@ function NewsDetail() {
             })
     }, [param])
     return (
-        <section class="blog_area single-post-area">
-            <div class="container">
-                <div class="row">
+        <section className="blog_area single-post-area">
+            <div className="container">
+                <div className="row">
                     {
                         data?.title && (
-                            <div class="col-lg-12 posts-list">
-                                <div class="single-post">
-                                    <div class="blog_details">
+                            <div className="col-lg-12 posts-list">
+                                <div className="single-post">
+                                    <div className="blog_details">
                                         <h2>{data?.title}</h2>
-                                        <div class="feature-img">
+                                        <div className="feature-img">
                                             {
                                                 !data?.media ? (
                                                     <>
                                                         <a href={`${url}/file/view/${data?.medias[0]}`} target="_blank" rel="noopener noreferrer">
-                                                            <img src={`${url}/file/view/${data?.medias[0]}`} class="img-fluid"
+                                                            <img src={`${url}/file/view/${data?.medias[0]}`} className="img-fluid"
                                                                 width="100%" style={{maxHeight: "400px", objectFit: "cover", marginBottom: "16px"}} alt="" />
                                                         </a>
                                                     </>
@@ -46,13 +46,13 @@ function NewsDetail() {
                                             <img  src="img/blog/single_blog_1.png" alt="" />
                                         </div>
                                         <h3>{data?.shortInformation}</h3>
-                                        {/* <p class="excert">
+                                        {/* <p className="excert">
                                             MCSE boot camps have its supporters and its detractors. Some people do not understand why you
                                             should have to spend money on boot camp when you can get the MCSE study materials yourself at a
                                             fraction of the camp price. However, who has the willpower
                                         </p> */}
-                                        <div class="quote-wrapper">
-                                            <div class="quotes">
+                                        <div className="quote-wrapper">
+                                            <div className="quotes">
                                                 {parse(data?.text)}
                                             </div>
                                         </div>

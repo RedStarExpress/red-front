@@ -29,11 +29,11 @@ function Contacts() {
     }
     return (
         <>
-            <div class="bradcam_area bradcam_bg_1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="bradcam_text text-center">
+            <div className="bradcam_area bradcam_bg_1">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="bradcam_text text-center">
                                 <h3>Bog'lanish</h3>
 
                                 <span style={{ color: "#fff", fontSize: "24px", fontWeight: "500" }}>
@@ -45,51 +45,51 @@ function Contacts() {
                 </div>
             </div>
 
-            <section class="contact-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="contact-title">Ma'lumotlarni to'ldiring</h2>
+            <section className="contact-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="contact-title">Ma'lumotlarni to'ldiring</h2>
                         </div>
-                        <div class="col-lg-8">
-                            <form class="form-contact contact_form" id="contactForm" onSubmit={sendMessage}
+                        <div className="col-lg-8">
+                            <form className="form-contact contact_form" id="contactForm" onSubmit={sendMessage}
                                 novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                <div className="row">
+                                    <div className="col-12">
+                                        <div className="form-group">
+                                            <textarea className="form-control w-100" name="message" id="message" cols="30" rows="9"
                                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
                                                 placeholder="Xabar matnini kiriting" ref={messageRef}></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <input class="form-control valid" name="name" id="name" type="text"
+                                    <div className="col-sm-6">
+                                        <div className="form-group">
+                                            <input className="form-control valid" name="name" id="name" type="text"
                                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
                                                 placeholder="Sizning ismingiz" ref={fullNameRef} />
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <input class="form-control valid" name="email" id="email" type="email"
+                                    <div className="col-sm-6">
+                                        <div className="form-group">
+                                            <input className="form-control valid" name="email" id="email" type="email"
                                                 onfocus="this.placeholder = ''" ref={emailRef}
                                                 onblur="this.placeholder = 'Enter email address'" placeholder="elektron pochta manzilingiz" />
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <input class="form-control" name="subject" id="subject" type="text"
+                                    <div className="col-12">
+                                        <div className="form-group">
+                                            <input className="form-control" name="subject" id="subject" type="text"
                                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
                                                 placeholder="telefon raqamingiz" ref={phoneRef} />
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="form-group w-100 mx-0 px-0">
-                                            <button type="submit" class="w-100 button button-contactForm boxed-btn mx-0">Yuborish</button>
+                                    <div className="col-12">
+                                        <div className="form-group w-100 mx-0 px-0">
+                                            <button type="submit" className="w-100 button button-contactForm boxed-btn mx-0">Yuborish</button>
                                         </div>
                                     </div>
 
-                                    <div class="col-12 mb-3">
+                                    <div className="col-12 mb-3">
                                         {!show && (
                                             <h3 style={{ textAlign: "center" }}>Ma'lumotlaringiz adminga jo'natildi. Taklif va murojaatlaringiz uchun raxmat.</h3>
                                         )}
@@ -97,24 +97,24 @@ function Contacts() {
                                 </div>
                             </form>
                         </div>
-                        <div class="col-lg-3 offset-lg-1">
-                            <div class="media contact-info">
-                                <span class="contact-info__icon"><i class="ti-home"></i></span>
-                                <div class="media-body">
+                        <div className="col-lg-3 offset-lg-1">
+                            <div className="media contact-info">
+                                <span className="contact-info__icon"><i className="ti-home"></i></span>
+                                <div className="media-body">
                                     <h3>Buttonwood, California.</h3>
                                     <p>Rosemead, CA 91770</p>
                                 </div>
                             </div>
-                            <div class="media contact-info">
-                                <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                                <div class="media-body">
+                            <div className="media contact-info">
+                                <span className="contact-info__icon"><i className="ti-tablet"></i></span>
+                                <div className="media-body">
                                     <h3>+1 253 565 2365</h3>
                                     <p>Mon to Fri 9am to 6pm</p>
                                 </div>
                             </div>
-                            <div class="media contact-info">
-                                <span class="contact-info__icon"><i class="ti-email"></i></span>
-                                <div class="media-body">
+                            <div className="media contact-info">
+                                <span className="contact-info__icon"><i className="ti-email"></i></span>
+                                <div className="media-body">
                                     <h3>support@colorlib.com</h3>
                                     <p>Send us your query anytime!</p>
                                 </div>

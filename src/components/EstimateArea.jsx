@@ -66,7 +66,7 @@ function EstimateArea() {
                                             <button className="boxed-btn3-line" type="submit">Xabarni yuborish</button>
                                         </div>
                                     </div>
-                                    <div class="col-12 my-3">
+                                    <div className="col-12 my-3">
                                         {show && (
                                             <h3 style={{ textAlign: "center", color: "#fff" }}>Ma'lumotlaringiz adminga jo'natildi. Taklif va murojaatlaringiz uchun raxmat.</h3>
                                         )}

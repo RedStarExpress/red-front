@@ -57,8 +57,8 @@ function ServiceArea() {
                                     {
                                         data?.map((item) => {
                                             return (
-                                                <div class="single_service item">
-                                                    <div class="thumb">
+                                                <div className="single_service item">
+                                                    <div className="thumb">
                                                         {
                                                             !item?.media ? (
                                                                 <>
@@ -75,7 +75,7 @@ function ServiceArea() {
                                                                 )
                                                         }
                                                     </div>
-                                                    <div class="service_info">
+                                                    <div className="service_info">
                                                         <h3><Link to={`/news_detail/${item.id}`}>{item.title}</Link></h3>
                                                         <p>{item.shortInformation}</p>
                                                     </div>
