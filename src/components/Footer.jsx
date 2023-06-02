@@ -15,7 +15,7 @@ function Footer() {
 
                         <div className="col-xl-5 col-md-6 col-lg-3">
                             <p className='mb-3'>
-                                Bizning RED STAR EXPRESS kargo kompaniyamiz o'z oldiga ulkan maqsadlar qo'ygan bo'lib, barchasini amalga oshirib kelmoqda. Kompaniyamiz ochilganiga ko'p bo'lmagan bo'lsada ishchilar ko'p yillik tajribaga ega va hattoki chet davlatlarda ishni o'rganib tajriba orttirganlar. Bu esa bizga O'zbekistonda yagona kamchiliklarsiz servisga ega bo'lishni va barcha davlatlardan mahsulotlarni davlatimiz fuqarolari uchun juda tez fursatda yetkazib berishni ta'minlaydi. REDSTAREXPRESS - YUKINGIZNI BIZGA ISHONING VA BUR ZUMDA QO'LINGIZGA OLING!
+                                Bizning RED STAR EXPRESS kargo kompaniyamiz o'z oldiga ulkan maqsadlar qo'ygan bo'lib, barchasini amalga oshirib kelmoqda. Kompaniyamiz ochilganiga ko'p bo'lmagan bo'lsada ishchilar ko'p yillik tajribaga ega va hattoki chet davlatlarda ishni o'rganib tajriba orttirganlar. Bu esa bizga O'zbekistonda yagona kamchiliklarsiz servisga ega bo'lishni va barcha davlatlardan mahsulotlarni davlatimiz fuqarolari uchun juda tez fursatda yetkazib berishni ta'minlaydi. REDSTAREXPRESS - YUKINGIZNI BIZGA ISHONING VA BIR ZUMDA QO'LINGIZGA OLING!
                             </p>
                         </div>
 
